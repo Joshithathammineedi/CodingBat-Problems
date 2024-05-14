@@ -1,0 +1,5 @@
+def end_other(a, b):
+  if(a.lower()[-len(b):]==b.lower() or b.lower()[-len(a):]==a.lower()):
+    return True
+  else:
+    return False
